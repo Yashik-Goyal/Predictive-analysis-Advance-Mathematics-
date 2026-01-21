@@ -10,9 +10,9 @@ The original feature $x$ is mapped to a transformed variable $z$ via a non-linea
 $$z = T_r(x) = x + a_r \cdot \arcsin(b_r x)$$
 
 The parameters $a_r$ and $b_r$ are derived from the university roll number $r$ as follows: $a_r = 0.05 \times (r \bmod 7)$ $b_r = 0.3 \times (r \bmod 5 + 1)$
-For my roll no 102303812: $a_r = 0.1$ $b_r = 0.9$
+For my roll no 102303706: $a_r = 0.1$ $b_r = 0.9$
 
-**For Roll No 102303812, Resulting Equation:**
+**For Roll No 102303706, Resulting Equation:**
 $z = x + 0.1 \cdot \arcsin(0.9x)$
 
 ---
@@ -33,6 +33,6 @@ Mean ($\mu$): $\mathbb{E}[z]$ Lambda ($\lambda$): $\frac{1}{2\sigma^2}$ Normaliz
 
 | Parameter | Value |
 | --- | --- |
-| $\mu$ | 25.96639 |
-| $\lambda$ | 0.00146037 |
-| $c$ | 0.02156037 |
+| $\mu$ | 25.887999018591284|
+| $\lambda$ | 0.0014604005541344863 |
+| $c$ | 0.021560610709562316 |
